@@ -275,7 +275,7 @@ export default {
         centro: 'Centro de comercio y servicios - Regional Tolima',
       },
       {
-        nombre: 'Luis Arévalo',
+        nombre: 'Luis Arévalo Mantilla',
         cargo: 'Diseño web',
         centro:
           'Centro industrial del diseño y la manufactura - Regional Santander',

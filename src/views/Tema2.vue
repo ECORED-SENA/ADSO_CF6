@@ -37,34 +37,34 @@
         figure
           img(src='@/assets/curso/img3.png')
     .row.mb-5
-      .col-12.py-5.bg-color4
-        ImagenInfografica.color-secundario.p-5
+      .col-12
+        ImagenInfografica.color-secundario
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/img4.svg')
-          .tarjeta.color-acento-botones.p-3(x="9%" y="7%" numero="1")
+          .tarjeta.color-acento-botones.p-3(x="21%" y="15%" numero="1")
             p.mb-0 Esta fase involucra la construcción del #[i software] a partir de los diseños del sistema.
-          .tarjeta.color-acento-botones.p-3(x="9%" y="18%" numero="2")
+          .tarjeta.color-acento-botones.p-3(x="21%" y="23.5%" numero="2")
             p.mb-0 Se hace una verificación inicial e individual del funcionamiento de cada uno de los módulos que se vayan construyendo.
-          .tarjeta.color-acento-botones.p-3(x="5%" y="41%" numero="3")
+          .tarjeta.color-acento-botones.p-3(x="18.2%" y="39.4%" numero="3")
             p.mb-0 Esta es la fase en la que entra el proyecto una vez el producto o servicio de #[i software] es entregado para ser usado por el cliente.
-          .tarjeta.color-acento-botones.p-3(x="2%" y="56%" numero="4")
+          .tarjeta.color-acento-botones.p-3(x="15.5%" y="48.8%" numero="4")
             p.mb-0 El mantenimiento hace referencia a la corrección de errores que no fueron detectados en las fases anteriores.
-          .tarjeta.color-acento-botones.p-3(x="7%" y="69%" numero="5")
+          .tarjeta.color-acento-botones.p-3(x="19.2%" y="56.5%" numero="5")
             p.mb-0 En la implementación se hacen mejoras del sistema y la incorporación de nuevos requerimientos.
-          .tarjeta.color-acento-botones.p-3(x="34%" y="72%" numero="6")
+          .tarjeta.color-acento-botones.p-3(x="41%" y="58.4%" numero="6")
             p.mb-0 Esta fase se encarga de hacer el proceso formal de pruebas.
-          .tarjeta.color-acento-botones.p-3(x="34%" y="84%" numero="7")
+          .tarjeta.color-acento-botones.p-3(x="40.8%" y="66.5%" numero="7")
             p.mb-0 Se verifica fundamentalmente que el conjunto de módulos construidos funcione correctamente.
-          .tarjeta.color-acento-botones.p-3(x="34%" y="96%" numero="8")
+          .tarjeta.color-acento-botones.p-3(x="40.9%" y="74.7%" numero="8")
             p.mb-0 Se verifica que cumpla con los requerimientos establecidos en la primera fase.
-          .tarjeta.color-acento-botones.p-3(x="86%" y="8%" numero="9")
+          .tarjeta.color-acento-botones.p-3(x="76%" y="18.7%" numero="9")
             p.mb-0 En esta fase se realiza una especificación muy detallada del sistema indicando los alcances, servicios a construir y restricciones.
-          .tarjeta.color-acento-botones.p-3(x="86%" y="21%" numero="10")
+          .tarjeta.color-acento-botones.p-3(x="76%" y="27.2%" numero="10")
             p.mb-0 Esta fase se encarga principalmente en la especificación de los requisitos.
-          .tarjeta.color-acento-botones.p-3(x="97%" y="47%" numero="11")
+          .tarjeta.color-acento-botones.p-3(x="86%" y="43%" numero="11")
             p.mb-0 En esta fase se establece la arquitectura final del sistema.
-          .tarjeta.color-acento-botones.p-3(x="97%" y="60%" numero="12")
+          .tarjeta.color-acento-botones.p-3(x="85.5%" y="51.7%" numero="12")
             p.mb-0 Se describen todas las abstracciones fundamentales del #[i software] y relaciones generalmente usando un lenguaje de modelado.
     p.mb-5 Las anteriores fases se pueden visualizar en la siguiente figura donde se sintetiza la información anteriormente mencionada.
     .row.mb-5(data-aos="fade-left")
@@ -232,105 +232,108 @@
             | Administración de proyectos y ambiente.
     p A continuación, se describen cada una de las disciplinas mencionadas y cómo estás aportan en el proceso.
     p.mb-5 RUP propone una categorización de roles encargados de la realización de actividades dentro de cada una de las disciplinas que son:
-    .row.align-items-center(data-aos="fade-right")
-      .col-6.col-lg-3.px-0
-        figure
-          img(src='@/assets/curso/img17.svg', style="width: 400px").m-auto
-      .col-6.col-lg-3.px-0
-        figure
-          img(src='@/assets/curso/img18.svg', style="width: 400px").m-auto
-      .col-6.col-lg-3.px-0
-        figure
-          img(src='@/assets/curso/img19.svg', style="width: 400px").m-auto
-      .col-6.col-lg-3.px-0
-        figure
-          img(src='@/assets/curso/img20.svg', style="width: 400px").m-auto
-    .row.mb-5.justify-content-center.bg-color5
-      .col-11.py-5
-        p.mb-5 #[b A continuación se describen cada uno de los roles:]
-        .row.align-items-center.mb-4
-          .col-lg-6.mb-4.mb-lg-0
-            p En los #[b roles específicos] clasificados en la categoría de analistas se encuentran:
-            ul.lista-ul--color.lista-ul.ms-5
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | Analistas de procesos de negocio.
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | Diseñadores del negocio.
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | Analistas del sistema.
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | Especificador de requisitos.
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | Diseñadores de interfaces de usuario o similares.
-          .col-lg-6
-            figure(data-aos="fade-left")
-              img(src='@/assets/curso/img21.svg', style="width: 400px").m-auto
-        .row.align-items-center.mb-4
-          .col-lg-6.mb-4.mb-lg-0
-            figure(data-aos="fade-right")
-              img(src='@/assets/curso/img22.svg', style="width: 400px").m-auto
-          .col-lg-6
-            p Dentro de los roles específicos clasificados en la categoría de #[b desarrolladores] se encuentran:
-            ul.lista-ul--color.lista-ul.ms-5
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | Arquitectos de #[i software].
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | Diseñador de bases de datos.
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | 
-                p.mb-0 Desarrollador #[i backend] y #[i frontend].
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | Cualquier otro rol relacionado con procesos de codificación o integración de código.
-        .row.align-items-center.mb-4
-          .col-lg-6.mb-4.mb-lg-0
-            p En los roles específicos clasificados en la categoría de #[b probadores] se encuentran:
-            ul.lista-ul--color.lista-ul.ms-5
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | Los diseñadores de pruebas.
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | Los implementadores de pruebas.
-          .col-lg-6
-            figure(data-aos="fade-left")
-              img(src='@/assets/curso/img23.svg', style="width: 400px").m-auto
-        p.mb-5 De igual forma, en los roles específicos clasificados en la categoría de analistas encontramos: analistas de procesos de negocio, diseñadores del negocio, analistas del sistema, especificador de requisitos, diseñadores de interfaces de usuario.
-        .row.align-items-center
-          .col-lg-6.mb-4.mb-lg-0
-            figure(data-aos="fade-right")
-              img(src='@/assets/curso/img24.svg', style="width: 400px").m-auto
-          .col-lg-6
-            p Dentro de los roles específicos clasificados en la categoría de otros se encuentran:
-            ul.lista-ul--color.lista-ul.ms-5
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | Artistas gráficos.
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | Administradores de sistemas.
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | Especialista en herramientas.
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                |
-                p.mb-0 #[i Stakeholders.]
-              li 
-                i.fab.fa-buffer(style="color: #039BE5")
-                | Cualquier otro rol no especificado anteriormente.
+    TabsB.color-acento-contenido.mb-5.bg-color5
+      .py-4.py-md-5(titulo="Analistas" :icono="require('@/assets/curso/img17.svg')")
+        .row
+          .col-12
+            p.mb-5 #[b A continuación se describen cada uno de los roles:]
+            .row.justify-content-center.align-items-center.mb-4
+              .col-lg-5.mb-4.mb-lg-0
+                p En los #[b roles específicos] clasificados en la categoría de analistas se encuentran:
+                ul.lista-ul--color.lista-ul.ms-5
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | Analistas de procesos de negocio.
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | Diseñadores del negocio.
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | Analistas del sistema.
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | Especificador de requisitos.
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | Diseñadores de interfaces de usuario o similares.
+              .col-lg-5
+                figure(data-aos="fade-left")
+                  img(src='@/assets/curso/img21.svg', style="width: 300px").m-auto
+      .py-4.py-md-5(titulo="Desarrolladores" :icono="require('@/assets/curso/img18.svg')")
+        .row
+          .col-12
+            .row.justify-content-center.align-items-center.mb-4
+              .col-lg-5.mb-4.mb-lg-0
+                figure(data-aos="fade-right")
+                  img(src='@/assets/curso/img22.svg', style="width: 300px").m-auto
+              .col-lg-5
+                p Dentro de los roles específicos clasificados en la categoría de #[b desarrolladores] se encuentran:
+                ul.lista-ul--color.lista-ul.ms-5
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | Arquitectos de #[i software].
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | Diseñador de bases de datos.
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | 
+                    p.mb-0 Desarrollador #[i backend] y #[i frontend].
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | Cualquier otro rol relacionado con procesos de codificación o integración de código.
+      .py-4.py-md-5(titulo="Probadores" :icono="require('@/assets/curso/img19.svg')")
+        .row
+          .col-12
+            .row.justify-content-center.align-items-center.mb-4
+              .col-lg-5.mb-4.mb-lg-0
+                p En los roles específicos clasificados en la categoría de #[b probadores] se encuentran:
+                ul.lista-ul--color.lista-ul.ms-5
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | Los diseñadores de pruebas.
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | Los implementadores de pruebas.
+              .col-lg-5
+                figure(data-aos="fade-left")
+                  img(src='@/assets/curso/img23.svg', style="width: 300px").m-auto
+      .py-4.py-md-5(titulo="Encargados y otros actores." :icono="require('@/assets/curso/img20.svg')")
+        .row
+          .col-12
+            p.mb-5 De igual forma, en los roles específicos clasificados en la categoría de analistas encontramos: analistas de procesos de negocio, diseñadores del negocio, analistas del sistema, especificador de requisitos, diseñadores de interfaces de usuario.
+            .row.align-items-center
+              .col-lg-6.mb-4.mb-lg-0
+                figure(data-aos="fade-right")
+                  img(src='@/assets/curso/img24.svg', style="width: 300px").m-auto
+              .col-lg-6
+                p Dentro de los roles específicos clasificados en la categoría de otros se encuentran:
+                ul.lista-ul--color.lista-ul.ms-5
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | Artistas gráficos.
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | Administradores de sistemas.
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | Especialista en herramientas.
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    |
+                    p.mb-0 #[i Stakeholders.]
+                  li 
+                    i.fab.fa-buffer(style="color: #039BE5")
+                    | Cualquier otro rol no especificado anteriormente.
     .row.justify-content-center
       .col-10.bg-color6(data-aos="fade-down")
         .p-5
-          p.mb-0 Existen otras metodologías que son categorizadas como marcos de trabajo tradicionales, sin embargo, la idea de este espacio es mostrar las características principales de los más reconocidos en la industria de software. Si se desea profundizar en las ventajas y desventajas de estas metodologías y otras, se invita a explorar el apartado de materiales complementarios. A continuación, se detallarán las metodologías enmarcadas dentro de la categoría de marcos de trabajo ágiles.
+          .row.align-items-center
+            .col-auto.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/img65.svg', style="width: 170px").m-auto
+            .col
+              p.mb-0 Existen otras metodologías que son categorizadas como marcos de trabajo tradicionales, sin embargo, la idea de este espacio es mostrar las características principales de los más reconocidos en la industria de software. Si se desea profundizar en las ventajas y desventajas de estas metodologías y otras, se invita a explorar el apartado de materiales complementarios. A continuación, se detallarán las metodologías enmarcadas dentro de la categoría de marcos de trabajo ágiles.
 
 </template>
 

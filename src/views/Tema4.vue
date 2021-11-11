@@ -10,7 +10,7 @@
     .row.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5.mb-4.mb-lg-0
         .row.mb-4
-          .col-12.bg-color1
+          .col-12.bg-color11
             p.mb-0 La planificación de proyectos de software involucra un conjunto de actividades que buscan tener una imagen preliminar del software a construir a partir de la cual se realizan estimaciones que permiten determinar la viabilidad o no de un proyecto de acuerdo con la cantidad de recursos asignados.
         p Según (SCRUMstudy, 2013), las actividades de planificación definidas dentro del marco de trabajo de Scrum son las que a continuación se mencionan en el recurso de aprendizaje:
       .col-lg-7

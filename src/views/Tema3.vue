@@ -191,7 +191,7 @@
     .row.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-5.mb-4.mb-lg-0
         .row.mb-4
-          .col-12.bg-color9
+          .col-12.bg-color10
             p.mb-0 RAD (Desarrollo Rápido de Aplicaciones) es otra metodología de desarrollo de software ágil que se centra en el desarrollo rápido de aplicaciones mediante la realización de iteraciones frecuentes y realimentación constante y fue inventado por James Martin en 1991.
         p Algunas características fundamentales de RAD son:
         ul.lista-ul--color.lista-ul.mb-0
@@ -243,35 +243,35 @@
         .row.align-items-center.mb-4
           .col-auto
             figure
-              img(src='@/assets/curso/img41.svg', style="width: 90px").m-auto
+              img(src='@/assets/curso/img41.svg', style="width: 200px").m-auto
           .col
             p.mb-0 #[b Facilitador]: se encarga del aseguramiento de los objetivos, es responsable de los Workshops de captura de requerimientos, se asegura del alistamiento de materiales, es un mediador en procesos de resolución de conflictos.
         hr
         .row.align-items-center.mb-4
           .col-auto
             figure
-              img(src='@/assets/curso/img43.svg', style="width: 110px").m-auto
+              img(src='@/assets/curso/img43.svg', style="width: 200px").m-auto
           .col
             p.mb-0 #[b Equipo Swat]: equipo encargado del diseño y construcción del sistema.
         hr
         .row.align-items-center
           .col-auto
             figure
-              img(src='@/assets/curso/img45.svg', style="width: 110px").m-auto
+              img(src='@/assets/curso/img45.svg', style="width: 200px").m-auto
           .col
             p.mb-0 #[b Administrador de bases de datos]: responsables del rendimiento, integridad y seguridad de los datos de la organización
         hr
         .row.align-items-center
           .col-auto
             figure
-              img(src='@/assets/curso/img47.svg', style="width: 110px").m-auto
+              img(src='@/assets/curso/img47.svg', style="width: 200px").m-auto
           .col
             p.mb-0 #[b Equipo de diseño de usuario]: proveen información detallada describiendo las funciones del negocio y procesos que serán afectados por el sistema propuesto.
         hr
         .row.align-items-center
           .col-auto
             figure
-              img(src='@/assets/curso/img49.svg', style="width: 110px").m-auto
+              img(src='@/assets/curso/img49.svg', style="width: 200px").m-auto
           .col
             p.mb-0 #[b Equipo de transición]: desarrolla las tareas necesarias para preparar y llevar el sistema a entornos de producción.
       .col-lg-6
@@ -279,28 +279,28 @@
         .row.align-items-center
           .col-auto
             figure
-              img(src='@/assets/curso/img42.svg', style="width: 90px").m-auto
+              img(src='@/assets/curso/img42.svg', style="width: 200px").m-auto
           .col
             p.mb-4 #[b Escriba]: es responsable de la documentación de todas las salidas producto de los #[i Workshops] de captura de requerimientos y registra información de todo el proceso.
         hr
-        .row.align-items-center.mb-5
+        .row.align-items-center.mb-4
           .col-auto
             figure
-              img(src='@/assets/curso/img44.svg', style="width: 90px").m-auto
+              img(src='@/assets/curso/img44.svg', style="width: 200px").m-auto
           .col
             p.mb-0 #[b Administrador del modelo]: encargado de coordinar el desarrollo y mantenimiento de las arquitecturas modelos resultantes del proyecto.
         hr
-        .row.align-items-center
-          .col-auto.mb-3
+        .row.align-items-center.mb-4
+          .col-auto
             figure
-              img(src='@/assets/curso/img46.svg', style="width: 90px").m-auto
+              img(src='@/assets/curso/img46.svg', style="width: 200px").m-auto
           .col
             p.mb-0 #[b Equipo de planificación de los #[i Workshops]]: asisten en la definición de requerimientos y el alcance propuesto para el sistema propuesto.
         hr
         .row.align-items-center
           .col-auto
             figure
-              img(src='@/assets/curso/img48.svg', style="width: 90px").m-auto
+              img(src='@/assets/curso/img48.svg', style="width: 200px").m-auto
           .col
             p.mb-0 #[b Equipo de soporte de construcción]: equipo que se asegura que las necesidades del usuario final sean alcanzadas en el sistema completo mediante la entrega de conocimiento detallado de actividades de negocio y realimentación en la usabilidad del sistema al equipo Swat.
         hr
