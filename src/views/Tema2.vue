@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 Producción Audiovisual
+      h1 Marcos de trabajo tradicionales
     figure.mb-5(data-aos="fade-right")
       img(src='@/assets/curso/img2.png')
     p.mb-5 Para el desarrollo de un buen producto de #[i software] se debe iniciar por un excelente proceso de planificación y gestión de este durante todas las etapas y actividades que involucran transformar una idea o requerimiento en un producto o servicio que será usado por un cliente particular.
@@ -117,14 +117,14 @@
           .tarjeta.color-primario
             .p-4
               h2.text-center Analista del negocio
-              p Encargados de encontrar fallas en los productos finales y retornar el software a los desarrolladores para arreglar todos los defectos.
+              p Encargado de la realización de estrategias de negocio que le permitan al producto software alcanzar popularidad en el mercado digital.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/img9.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .p-4
               h2.text-center Administrador del proyecto
-              p es responsable de la calidad final del software. Administra el proyecto y lo subdivide en tareas entre los miembros del equipo.
+              p Es responsable de la calidad final del software. Administra el proyecto y lo subdivide en tareas entre los miembros del equipo.
     separador.mb-5
     #t_2_2
     .titulo-segundo.color-secundario

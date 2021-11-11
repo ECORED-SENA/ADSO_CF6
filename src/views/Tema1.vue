@@ -8,8 +8,11 @@
         span 1
       h1 Metodologías de desarrollo de <i>software</i>
     .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-6.bg-color1
-        p Es importante aclarar que existe un gran número de definiciones sobre lo que es una metodología, para evitar cualquier confusión en este material se utiliza la definición dada en Maida y Pacienzia (2015), quienes indican que #[b una metodología hace referencia a un conjunto de procedimientos genéricos y lógicos que se utilizan para alcanzar un objetivo particular usando un conjunto de habilidades y conocimientos].
+      .col-lg-6
+        .row.mb-4
+          .col-12.bg-color1
+            p Es importante aclarar que existe un gran número de definiciones sobre lo que es una metodología, para evitar cualquier confusión en este material se utiliza la definición dada en Maida y Pacienzia (2015), quienes indican que #[b una metodología hace referencia a un conjunto de procedimientos genéricos y lógicos que se utilizan para alcanzar un objetivo particular usando un conjunto de habilidades y conocimientos].
+        p Las metodologías de desarrollo de #[i software] siempre parten de un componente teórico y cuando son usadas por los equipos de trabajo conllevan a la utilización de un conjunto de técnicas y métodos que al final determinarán las tareas generales y específicas que se deberían realizar para alcanzar un objetivo.
       .col-lg-6
         figure
           img(src='@/assets/curso/img1.png')

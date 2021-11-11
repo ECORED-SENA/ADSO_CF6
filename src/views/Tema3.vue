@@ -237,6 +237,7 @@
       .col-lg-7
         figure
           img(src='@/assets/curso/img40.svg')
+    p.mb-5 Según HKSAR (2009) los roles más importantes de la metodología RAD son: facilitador, escriba, equipo #[i Swat], administrador del modelo, administrador de bases de datos, equipo de planificación de #[i Workshop], equipo de diseño de usuario, equipo de soporte de construcción y equipo de transición, a continuación se mencionan las características más importantes de cada rol.
     .row
       .col-lg-6
         hr
@@ -245,7 +246,7 @@
             figure
               img(src='@/assets/curso/img41.svg', style="width: 200px").m-auto
           .col
-            p.mb-0 #[b Facilitador]: se encarga del aseguramiento de los objetivos, es responsable de los Workshops de captura de requerimientos, se asegura del alistamiento de materiales, es un mediador en procesos de resolución de conflictos.
+            p.mb-0 #[b Facilitador]: se encarga del aseguramiento de los objetivos, es responsable de los #[i Workshops] de captura de requerimientos, se asegura del alistamiento de materiales, es un mediador en procesos de resolución de conflictos.
         hr
         .row.align-items-center.mb-4
           .col-auto

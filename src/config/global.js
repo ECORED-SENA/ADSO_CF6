@@ -30,7 +30,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Marcos de trabajo tradicionales',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -298,7 +298,7 @@ export default {
           'Centro industrial del diseño y la manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro industrial del diseño y la manufactura - Regional Santander',
