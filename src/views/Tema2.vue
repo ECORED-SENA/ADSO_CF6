@@ -36,7 +36,7 @@
       .col-lg-6
         figure
           img(src='@/assets/curso/img3.png')
-    .row.mb-5
+    .row
       .col-12
         ImagenInfografica.color-secundario
           template(v-slot:imagen)
@@ -58,13 +58,13 @@
             p.mb-0 Se verifica fundamentalmente que el conjunto de módulos construidos funcione correctamente.
           .tarjeta.color-acento-botones.p-3(x="40.9%" y="74.7%" numero="8")
             p.mb-0 Se verifica que cumpla con los requerimientos establecidos en la primera fase.
-          .tarjeta.color-acento-botones.p-3(x="76%" y="18.7%" numero="9")
+          .tarjeta.color-acento-botones.p-3(x="76%" y="17.5%" numero="9")
             p.mb-0 En esta fase se realiza una especificación muy detallada del sistema indicando los alcances, servicios a construir y restricciones.
-          .tarjeta.color-acento-botones.p-3(x="76%" y="27.2%" numero="10")
+          .tarjeta.color-acento-botones.p-3(x="76.5%" y="27%" numero="10")
             p.mb-0 Esta fase se encarga principalmente en la especificación de los requisitos.
-          .tarjeta.color-acento-botones.p-3(x="86%" y="43%" numero="11")
+          .tarjeta.color-acento-botones.p-3(x="85.7%" y="44.4%" numero="11")
             p.mb-0 En esta fase se establece la arquitectura final del sistema.
-          .tarjeta.color-acento-botones.p-3(x="85.5%" y="51.7%" numero="12")
+          .tarjeta.color-acento-botones.p-3(x="85.7%" y="51.2%" numero="12")
             p.mb-0 Se describen todas las abstracciones fundamentales del #[i software] y relaciones generalmente usando un lenguaje de modelado.
     p.mb-5 Las anteriores fases se pueden visualizar en la siguiente figura donde se sintetiza la información anteriormente mencionada.
     .row.mb-5(data-aos="fade-left")
